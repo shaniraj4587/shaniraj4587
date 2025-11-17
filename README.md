@@ -1,4 +1,8 @@
-
+<h2 align="center">💫 About Me</h2>
+<p align="center">
+I'm a passionate <strong>Django Backend Developer</strong> specializing in modern backend systems, secure authentication, REST APIs, and scalable architectures.<br>
+I enjoy building real-world projects that solve actual problems.
+</p>
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/shaniraj458) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shaniraj4587) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shaniraj) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:shaniraj4587) 
 
@@ -15,34 +19,7 @@
 ---
 [![](https://visitcount.itsvg.in/api?id=shaniraj4587&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-<h2 align="center">💫 About Me</h2>
-<p align="center">
-I'm a passionate <strong>Django Backend Developer</strong> specializing in modern backend systems, secure authentication, REST APIs, and scalable architectures.<br>
-I enjoy building real-world projects that solve actual problems.
-</p>
----
 
-<h2 align="center">🎨 Tech Stack</h2>
-<p align="center">
-  <!-- Backend -->
-  <img src="https://skillicons.dev/icons?i=django,python,cpp,postgres,mysql,sqlite&theme=light" /><br>
-  <!-- Frontend -->
-  <img src="https://skillicons.dev/icons?i=html,css,tailwind&theme=light" /><br>
-  <!-- DevOps -->
-  <img src="https://skillicons.dev/icons?i=git,github,docker,vscode&theme=light" />
-</p>
----
-
-<h2 align="center">🔥 GitHub Activity</h2>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shaniraj&theme=tokyonight&hide_border=true" />
-</p><p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shaniraj&show_icons=true&theme=radical&hide_border=true" />
-</p><p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shaniraj&layout=compact&theme=merko&hide_border=true" />
-</p>
----
 
 <h2 align="center">🚀 Featured Projects</h2>⭐ Lost & Found Portal (Django + MySQL)
 
