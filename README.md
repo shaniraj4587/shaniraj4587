@@ -3,6 +3,8 @@
 I'm a passionate <strong>Django Backend Developer</strong> specializing in modern backend systems, secure authentication, REST APIs, and scalable architectures.<br>
 I enjoy building real-world projects that solve actual problems.
 </p>
+
+
 ## 🌐 Socials:
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/shaniraj458) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/shaniraj4587) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shaniraj) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:shaniraj4587) 
 
