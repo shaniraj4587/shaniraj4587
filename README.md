@@ -68,7 +68,36 @@
 ---
 
 <!-- =================================================== -->
-<!-- SECTION 03: VIBECODED // THE FLOW SUITE             -->
+<!-- SECTION 03: DEPLOYED.REPOS // FULL STACK & DATA     -->
+<!-- =================================================== -->
+<p align="center">
+  <img src="./assets/sec-projects.svg" alt="DEPLOYED.REPOS // Full Stack & Data Architecture" width="100%" />
+</p>
+
+### 01. Campus Lost &amp; Found Full Stack Portal
+* **Architecture**: JavaScript • Django / PHP • MySQL • Responsive Figma UI/UX
+* **Live Repositories**: [`shaniraj4587/Lost_found_using_Django`](https://github.com/shaniraj4587/Lost_found_using_Django) &bull; [`shaniraj4587/Lost-Found-Portal`](https://github.com/shaniraj4587/Lost-Found-Portal)
+* **Engineering Scope**: Centralized recovery engine engineered for campus item management. Features dynamic client-side filtering, reactive claim verification lifecycles, role-based access control, and a modern responsive user interface designed in Figma.
+
+### 02. Data Visualizer Tool &amp; Practical Analysis Suite
+* **Architecture**: Python • Pandas • Matplotlib • Jupyter Notebook
+* **Live Repository**: [`shaniraj4587/DataVisualizationPracticle`](https://github.com/shaniraj4587/DataVisualizationPracticle)
+* **Engineering Scope**: Automated analytical pipeline processing structured CSV datasets, computing descriptive statistics, and generating real-time visual trend distribution models.
+
+### 03. Modular Flask Publishing Engine
+* **Architecture**: Python • Flask • Jinja2 • RESTful Architecture
+* **Live Repository**: [`shaniraj4587/Flask-blog-site`](https://github.com/shaniraj4587/Flask-blog-site)
+* **Engineering Scope**: Lightweight modular web architecture with isolated routing modules, secure cookie-session handling, and structured CRUD data persistence.
+
+### 04. Exam Protector &amp; Proctoring Platform
+* **Architecture**: TypeScript • Client-Side Security • DOM Interceptors
+* **Live Repository**: [`shaniraj4587/exam-protector`](https://github.com/shaniraj4587/exam-protector)
+* **Engineering Scope**: Integrity monitoring utility engineered for browser testing environments, implementing tab focus listeners, shortcut interceptors, and violation event logs.
+
+---
+
+<!-- =================================================== -->
+<!-- SECTION 04: VIBECODED // THE FLOW SUITE             -->
 <!-- =================================================== -->
 <p align="center">
   <img src="./assets/sec-vibecoded.svg" alt="VIBECODED // The Flow Suite" width="100%" />
@@ -100,35 +129,6 @@ A signature collection of native applications engineered for zero bloat, low lat
 * **Core Stack**: `Kotlin` • `Android Jetpack` • `Hardware Canvas API`
 * **Architecture Highlights**: Ultra-lightweight (1.82 MB), zero-bloat native Android screen overlay and drawing system inspired by Epic Pen and Samsung Notes. Engineered for low-latency S Pen ink tracking, smooth Bézier vector smoothing, and an intuitive floating canvas HUD.
 * **Source**: [`github.com/shaniraj4587/InkFlow`](https://github.com/shaniraj4587/InkFlow)
-
----
-
-<!-- =================================================== -->
-<!-- SECTION 04: DEPLOYED.REPOS // FULL STACK & DATA     -->
-<!-- =================================================== -->
-<p align="center">
-  <img src="./assets/sec-projects.svg" alt="DEPLOYED.REPOS // Full Stack & Data Architecture" width="100%" />
-</p>
-
-### 01. Campus Lost &amp; Found Full Stack Portal
-* **Architecture**: JavaScript • Django / PHP • MySQL • Responsive Figma UI/UX
-* **Live Repositories**: [`shaniraj4587/Lost_found_using_Django`](https://github.com/shaniraj4587/Lost_found_using_Django) &bull; [`shaniraj4587/Lost-Found-Portal`](https://github.com/shaniraj4587/Lost-Found-Portal)
-* **Engineering Scope**: Centralized recovery engine engineered for campus item management. Features dynamic client-side filtering, reactive claim verification lifecycles, role-based access control, and a modern responsive user interface designed in Figma.
-
-### 02. Data Visualizer Tool &amp; Practical Analysis Suite
-* **Architecture**: Python • Pandas • Matplotlib • Jupyter Notebook
-* **Live Repository**: [`shaniraj4587/DataVisualizationPracticle`](https://github.com/shaniraj4587/DataVisualizationPracticle)
-* **Engineering Scope**: Automated analytical pipeline processing structured CSV datasets, computing descriptive statistics, and generating real-time visual trend distribution models.
-
-### 03. Modular Flask Publishing Engine
-* **Architecture**: Python • Flask • Jinja2 • RESTful Architecture
-* **Live Repository**: [`shaniraj4587/Flask-blog-site`](https://github.com/shaniraj4587/Flask-blog-site)
-* **Engineering Scope**: Lightweight modular web architecture with isolated routing modules, secure cookie-session handling, and structured CRUD data persistence.
-
-### 04. Exam Protector &amp; Proctoring Platform
-* **Architecture**: TypeScript • Client-Side Security • DOM Interceptors
-* **Live Repository**: [`shaniraj4587/exam-protector`](https://github.com/shaniraj4587/exam-protector)
-* **Engineering Scope**: Integrity monitoring utility engineered for browser testing environments, implementing tab focus listeners, shortcut interceptors, and violation event logs.
 
 ---
 
