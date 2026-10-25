@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 72" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="shani-foot-bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10070C"/>
+      <stop offset="50%" stop-color="#190B12"/>
+      <stop offset="100%" stop-color="#10070C"/>
+    </linearGradient>
+
+    <!-- Top Border Shimmer Gradient -->
+    <linearGradient id="shani-foot-shimmer" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#451126" stop-opacity="0.2"/>
+      <stop offset="35%" stop-color="#701A3D" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#E5B5C7" stop-opacity="1">
+        <animate attributeName="stop-color" values="#E5B5C7;#C77B9B;#E5B5C7" dur="5s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="65%" stop-color="#701A3D" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#451126" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Glowing Dot Filter -->
+    <filter id="shani-foot-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .font-mono { font-family: 'SF Mono', Consolas, 'Fira Code', Menlo, Monaco, monospace; }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    @media (prefers-reduced-motion: reduce) {
+      animate { animation: none !important; }
+    }
+  </style>
+
+  <!-- Container Box -->
+  <rect width="880" height="72" rx="12" fill="url(#shani-foot-bg)"/>
+  <rect x="1" y="1" width="878" height="70" rx="11" fill="none" stroke="#451126" stroke-width="1" stroke-opacity="0.6"/>
+
+  <!-- Top Accent Shimmer Line -->
+  <line x1="20" y1="1" x2="860" y2="1" stroke="url(#shani-foot-shimmer)" stroke-width="1.8"/>
+
+  <!-- Left Status Indicator -->
+  <g transform="translate(36, 36)">
+    <circle cx="0" cy="0" r="3" fill="#C77B9B">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#701A3D" stroke-width="0.8">
+      <animate attributeName="r" values="3;8;3" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="14" y="3.5" fill="#E5B5C7" class="font-mono" font-size="10" letter-spacing="1.5">DATA INTEGRITY // ARCHITECTURAL PRECISION</text>
+  </g>
+
+  <!-- Center Decorative Divider -->
+  <g transform="translate(480, 36)">
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#701A3D" stroke-width="1" opacity="0.5"/>
+    <circle cx="0" cy="0" r="2" fill="#E5B5C7"/>
+  </g>
+
+  <!-- Right Side Attribution / Tag -->
+  <g transform="translate(844, 36)" text-anchor="end">
+    <text x="0" y="3.5" fill="#C77B9B" class="font-mono" font-size="10" letter-spacing="1.8">
+      SHANI RAJ <tspan fill="#701A3D">•</tspan> 2026
+    </text>
+  </g>
+</svg>
