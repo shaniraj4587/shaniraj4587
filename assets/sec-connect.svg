@@ -26,7 +26,7 @@
   <rect x="0.5" y="0.5" width="919" height="43" rx="7.5" fill="none" stroke="#00F0FF" stroke-width="1" stroke-opacity="0.5"/>
   <line x1="16" y1="43" x2="350" y2="43" stroke="url(#cyber-h5-line)" stroke-width="2.5" filter="url(#neon-h5-glow)"/>
   <path d="M 12 8 L 4 8 L 4 16" fill="none" stroke="#00F0FF" stroke-width="1.8"/>
-  <text x="24" y="27" fill="#00F0FF" class="font-mono" font-size="12" font-weight="800" letter-spacing="1.5">// 05</text>
+  <text x="24" y="27" fill="#00F0FF" class="font-mono" font-size="12" font-weight="800" letter-spacing="1.5">// 06</text>
   <text x="72" y="27" fill="#FFFFFF" class="font-display" font-size="14.5" font-weight="800" letter-spacing="1.5">NETWORK // CYBER COMM-LINKS</text>
   <text x="900" y="26" fill="#FF007F" class="font-mono" font-size="10" letter-spacing="2" text-anchor="end" font-weight="700">COMMS // ENCRYPTED</text>
 </svg>

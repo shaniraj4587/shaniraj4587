@@ -19,13 +19,6 @@
       <stop offset="100%" stop-color="#030014" stop-opacity="0"/>
     </radialGradient>
 
-    <!-- Neon Title Gradient -->
-    <linearGradient id="cyber-stat-title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F0FF"/>
-      <stop offset="50%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#FF007F"/>
-    </linearGradient>
-
     <!-- Laser Underline Gradient -->
     <linearGradient id="laser-stat-line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.1"/>
@@ -47,15 +40,16 @@
       <circle cx="32" cy="0" r="1" fill="#FF007F" fill-opacity="0.35"/>
     </pattern>
 
-    <!-- Multi-stage Neon Glow Filter -->
     <filter id="neon-stat-glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="5" result="blur1"/>
-      <feGaussianBlur stdDeviation="2" result="blur2"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
-        <feMergeNode in="blur1"/>
-        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
+    </filter>
+
+    <filter id="ambient-stat-text-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
     </filter>
   </defs>
 
@@ -97,7 +91,11 @@
       <text x="20" y="17" fill="#00F0FF" class="font-mono" font-size="11" font-weight="700" letter-spacing="2">⚡ MASTER // NEXT.JS &amp; JAVASCRIPT</text>
     </g>
 
-    <text x="0" y="74" fill="url(#cyber-stat-title-grad)" class="font-display" font-size="50" font-weight="900" letter-spacing="3" filter="url(#neon-stat-glow)">
+    <!-- Razor-Sharp Pure White Name with Ambient Cyan Halo -->
+    <text x="0" y="74" fill="#00F0FF" class="font-display" font-size="50" font-weight="900" letter-spacing="3" filter="url(#ambient-stat-text-glow)" opacity="0.5">
+      SHANI RAJ
+    </text>
+    <text x="0" y="74" fill="#FFFFFF" class="font-display" font-size="50" font-weight="900" letter-spacing="3">
       SHANI RAJ
     </text>
 

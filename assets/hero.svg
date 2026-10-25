@@ -18,24 +18,6 @@
       <stop offset="55%" stop-color="#7928CA" stop-opacity="0.15"/>
       <stop offset="100%" stop-color="#030014" stop-opacity="0"/>
     </radialGradient>
-    <radialGradient id="neon-core-glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.8"/>
-      <stop offset="40%" stop-color="#7928CA" stop-opacity="0.4"/>
-      <stop offset="100%" stop-color="#030014" stop-opacity="0"/>
-    </radialGradient>
-
-    <!-- Neon Title Shimmer Gradient -->
-    <linearGradient id="cyber-title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00F0FF">
-        <animate attributeName="stop-color" values="#00F0FF;#FFFFFF;#FF007F;#00F0FF" dur="6s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="50%" stop-color="#FFFFFF">
-        <animate attributeName="stop-color" values="#FFFFFF;#FF007F;#00F0FF;#FFFFFF" dur="6s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#FF007F">
-        <animate attributeName="stop-color" values="#FF007F;#00F0FF;#FFFFFF;#FF007F" dur="6s" repeatCount="indefinite"/>
-      </stop>
-    </linearGradient>
 
     <!-- Laser Underline Gradient -->
     <linearGradient id="laser-line-grad" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -59,23 +41,17 @@
       <circle cx="32" cy="0" r="1" fill="#FF007F" fill-opacity="0.35"/>
     </pattern>
 
-    <!-- Multi-stage Neon Glow Filter -->
+    <!-- Ambient Glow Filter for Background Elements -->
     <filter id="neon-glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="5" result="blur1"/>
-      <feGaussianBlur stdDeviation="2" result="blur2"/>
-      <feMerge>
-        <feMergeNode in="blur1"/>
-        <feMergeNode in="blur2"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="intense-glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
+    </filter>
+
+    <filter id="ambient-text-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
     </filter>
   </defs>
 
@@ -135,19 +111,24 @@
     <!-- Cyber Badge: Next.js & JavaScript Mastery -->
     <g transform="translate(0, 0)">
       <rect x="0" y="0" width="310" height="26" rx="6" fill="#0A0826" stroke="#00F0FF" stroke-width="1.2" opacity="0.95"/>
-      <rect x="3" y="3" width="6" height="20" rx="2" fill="#00F0FF" filter="url(#neon-glow)"/>
+      <rect x="3" y="3" width="6" height="20" rx="2" fill="#00F0FF"/>
       <text x="20" y="17" fill="#00F0FF" class="font-mono" font-size="11" font-weight="700" letter-spacing="2">⚡ MASTER // NEXT.JS &amp; JAVASCRIPT</text>
     </g>
 
-    <!-- Name / Title with Neon Shimmer & Glow -->
-    <text x="0" y="74" fill="url(#cyber-title-grad)" class="font-display" font-size="50" font-weight="900" letter-spacing="3" filter="url(#neon-glow)">
+    <!-- Name / Title: Razor Sharp Crisp White with Soft Cyan Ambient Halo Behind -->
+    <!-- Subtle Ambient Halo (Behind) -->
+    <text x="0" y="74" fill="#00F0FF" class="font-display" font-size="50" font-weight="900" letter-spacing="3" filter="url(#ambient-text-glow)" opacity="0.5">
+      SHANI RAJ
+    </text>
+    <!-- Sharp, Clear, 100% Readable Foreground Name -->
+    <text x="0" y="74" fill="#FFFFFF" class="font-display" font-size="50" font-weight="900" letter-spacing="3">
       SHANI RAJ
     </text>
 
     <!-- Glowing Laser Underline with Moving High-Energy Spark -->
     <g transform="translate(0, 88)">
       <line x1="0" y1="0" x2="430" y2="0" stroke="url(#laser-line-grad)" stroke-width="3" filter="url(#neon-glow)"/>
-      <circle cx="20" cy="0" r="3.5" fill="#FFFFFF" filter="url(#intense-glow)">
+      <circle cx="20" cy="0" r="3.5" fill="#FFFFFF" filter="url(#neon-glow)">
         <animate attributeName="cx" values="10;420;10" dur="3.5s" repeatCount="indefinite"/>
       </circle>
     </g>
@@ -202,19 +183,19 @@
     <!-- Orbiting High-Energy Cyber Node 1 (on Cyan Ring) -->
     <g>
       <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
-      <circle cx="82" cy="0" r="4.5" fill="#00F0FF" filter="url(#intense-glow)"/>
+      <circle cx="82" cy="0" r="4.5" fill="#00F0FF" filter="url(#neon-glow)"/>
       <circle cx="82" cy="0" r="8" fill="none" stroke="#00F0FF" stroke-width="1" opacity="0.6"/>
     </g>
 
     <!-- Orbiting Plasma Node 2 (on Magenta Ring) -->
     <g>
       <animateTransform attributeName="transform" type="rotate" from="240" to="600" dur="16s" repeatCount="indefinite"/>
-      <circle cx="62" cy="0" r="3.5" fill="#FF007F" filter="url(#intense-glow)"/>
+      <circle cx="62" cy="0" r="3.5" fill="#FF007F" filter="url(#neon-glow)"/>
     </g>
 
     <!-- Central Glowing Quantum Reactor Core -->
     <circle cx="0" cy="0" r="16" fill="#050518" stroke="#00F0FF" stroke-width="2" filter="url(#neon-glow)"/>
-    <circle cx="0" cy="0" r="8" fill="#FFFFFF" filter="url(#intense-glow)">
+    <circle cx="0" cy="0" r="8" fill="#FFFFFF" filter="url(#neon-glow)">
       <animate attributeName="r" values="6;9.5;6" dur="2.2s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.8;1;0.8" dur="2.2s" repeatCount="indefinite"/>
     </circle>
